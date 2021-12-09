@@ -1,0 +1,83 @@
+*{
+    margin:0;
+}
+
+button{
+    margin: 10px;
+}
+
+html,body{
+    height:100%;
+}
+
+.popUp{
+    height:100%;
+    width:100%;
+    background-color:rgba(193, 193, 193, 0.66);
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.popUp img{
+    height:100px;
+
+}
+
+form {
+    display: block;
+    font-size:11px;
+    padding:4px 2px;
+    width:70px;
+    margin:2px 0 20px 10px;
+}
+
+#frmBox {
+    border: 1px solid black;
+    width: 200px;
+}
+#frmBox button {
+    margin-left: 70px;
+    margin-top: 0px;
+}
+
+input {
+    margin-top: 10px;
+    width: 160px;
+}
+
+
+.product{
+    width:200px;
+    height: 200px;
+    border-radius:10px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    text-color:black;
+    box-sizing:border-box;
+    align: center;
+    position: relative;
+    text-align: center;
+    border:1px solid black;
+    display:inline-block;
+}
+
+.product p{
+    margin-top: 10px;
+}
+
+.inner{
+    margin-top: 20px;
+}
+.product img{
+    height:100px;
+}
+
+.topBar {
+    display: inline-block;
+}
